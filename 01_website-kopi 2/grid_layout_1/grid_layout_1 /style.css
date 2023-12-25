@@ -1,0 +1,55 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container .top-container
+{
+    display: grid;
+    gap: 30px;
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.container .top-container .first-top-box,
+.container .top-container .second-top-box
+{
+    color: rgb(52, 88, 64);
+    background-color: rgb(237, 221, 201);
+    border: 5px solid rgb(52, 88, 64);
+}
+
+img
+{
+    width: 100%;
+    height: auto;
+    display: block;
+    padding: 0px;
+}
+
+@media (max-width: 700px)
+{
+    .container .top-container
+    {
+        grid-template-columns: 1fr;
+        gap: 15px;
+        padding: 5px;
+    }
+
+    .container .first-top-box
+    {
+
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 1.2rem;
+        line-height: 1.5;
+    }
+
+    h2
+    {
+        text-align: center;
+        color: rgb(4, 79, 4);
+    }
+}

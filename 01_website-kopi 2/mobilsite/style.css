@@ -1,0 +1,61 @@
+@font-face {
+  font-family: nunito;
+  src: url(nunito-variablefont_wght-webfont.woff);
+}
+
+/*** font reset ***/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+/*** font reset slut***/
+h1 {
+  color: rgb(119, 159, 239);
+}
+h2 {
+  color: rgb(119, 159, 239);
+  padding: 0px;
+  margin: 2px;
+}
+
+body {
+  background-color: rgb(235, 231, 224);
+}
+
+p {
+  font-family: "lato", sans-serif;
+  margin: 2px;
+  padding: 10px;
+}
+
+h1 {
+  font-family: nunito;
+  font-weight: 1000;
+  margin: 10px;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+dd {
+  color: rgb(235, 20, 41);
+  padding: 1px;
+  margin: 2px;
+}
+dt {
+  font-weight: 800;
+  padding: 10px;
+}
+
+li {
+  margin: 20px;
+}
+img {
+  padding: 10px;
+}
