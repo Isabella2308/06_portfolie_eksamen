@@ -40,14 +40,19 @@ ul {
   background-color: rgb(60, 69, 147);
   /*border-radius: 20px;*/
 }
-footer {
+.footer {
   border-radius: solid;
   background-color: rgb(60, 69, 147);
   padding-top: 30px;
   padding-bottom: 20px;
   font-size: 1.5rem;
-  color: white;
   padding-left: 20px;
+  color: rgb(255, 255, 255);
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.5rem;
+  text-align: center;
+  letter-spacing: 5px;
+  line-height: 35px;
 }
 
 h1 {
@@ -70,4 +75,11 @@ h1 {
 }
 h2 {
   font-family: "sofia", sans-serif;
+}
+
+.logo1 {
+  width: 150px;
+  margin-left: 650px;
+  margin-right: 500px;
+  padding-top: 30px;
 }

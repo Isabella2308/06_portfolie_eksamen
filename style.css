@@ -48,6 +48,8 @@ img {
   border-color: white;
   border-width: 5px;
   font-family: "Times New Roman", Times, serif;
+  line-height: 45px;
+  text-shadow: 0 5px 10px rgb(244, 130, 218);
 }
 .tekst_h1_forside {
   text-align: center;
@@ -242,6 +244,7 @@ img {
   border-width: 5px;
   gap: 20px;
   margin: 150px 0;
+  font-size: 1.5rem;
 }
 .galleri_tema4 {
   gap: 20px;
@@ -259,6 +262,7 @@ img {
   width: 900;
   height: 900;
 }
+
 .rotation {
   width: 50px;
   height: 50px;
