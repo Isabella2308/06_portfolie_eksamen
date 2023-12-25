@@ -244,8 +244,6 @@ img {
   margin: 150px 0;
 }
 .galleri_tema4 {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
   gap: 20px;
   background-color: rgb(244, 198, 233);
   border: solid;
@@ -253,7 +251,13 @@ img {
   border-width: 5px;
 }
 .billeder_tema4 {
-  width: 200px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 50px;
+}
+.cookie {
+  width: 900;
+  height: 900;
 }
 .rotation {
   width: 50px;

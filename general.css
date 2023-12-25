@@ -23,6 +23,7 @@ nav a {
 }
 a:hover {
   color: rgb(246, 172, 228);
+  text-decoration: none;
 }
 
 ul {
