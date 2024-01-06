@@ -12,8 +12,12 @@ img {
 body {
   background-color: rgb(168, 149, 149);
 }
+/*main {
+  padding-left: 20px;
+  padding-right: 20px;
+}*/
 
-nav a {
+.stor_nav a {
   text-decoration: none;
   padding: 50px;
   margin: 10px;
@@ -28,7 +32,7 @@ a:hover {
 
 ul {
   list-style: none;
-  /*margin: 20px;*/
+
   padding: 30px;
   text-align: center;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -36,50 +40,99 @@ ul {
   align-items: center;
   justify-content: center;
   display: flex;
-
-  background-color: rgb(60, 69, 147);
-  /*border-radius: 20px;*/
+}
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(73, 75, 90);
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .footer {
   border-radius: solid;
-  background-color: rgb(60, 69, 147);
+  background-color: rgb(73, 75, 90);
   padding-top: 30px;
   padding-bottom: 20px;
   font-size: 1.5rem;
   padding-left: 20px;
   color: rgb(255, 255, 255);
   font-family: "Times New Roman", Times, serif;
-  font-size: 1.5rem;
+  font-size: 20px;
   text-align: center;
   letter-spacing: 5px;
   line-height: 35px;
 }
 
-h1 {
-  font-family: "sofia", sans-serif;
-}
-h2 {
-  font-family: "sofia", sans-serif;
+.kontakt_logo {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+
+  padding-top: 10px;
 }
 
-@media (max-width: 600px) {
-  ul {
-    list-style: none;
+.kontakt_logo img {
+  width: 40px;
+  height: auto;
+}
+
+.logo {
+  width: 150px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.rotation {
+  width: 50px;
+  height: 50px;
+
+  animation: rotation_kf 50s linear infinite;
+}
+@keyframes rotation_kf {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
   }
 }
-video {
-  padding-left: 20px;
-}
-h1 {
-  font-family: "sofia", sans-serif;
-}
-h2 {
-  font-family: "sofia", sans-serif;
-}
-
 .logo1 {
   width: 150px;
-  margin-left: 650px;
-  margin-right: 500px;
+  margin-left: auto; /* Centreret */
+  margin-right: auto; /* Centreret */
   padding-top: 30px;
+  position: sticky;
+}
+nav a {
+  padding: 15px;
+  font-size: 18px;
+}
+
+ul {
+  padding: 10px;
+}
+
+.lille_nav {
+  display: none;
+}
+
+.lille_nav a {
+  text-decoration: none;
+  margin: 10px;
+  color: rgb(255, 252, 252);
+  font-size: 20px;
+  text-shadow: 0 5px 10px rgb(244, 130, 218);
+}
+@media (max-width: 700px) {
+  .stor_nav {
+    display: none !important;
+  }
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .lille_nav {
+    display: block;
+  }
 }

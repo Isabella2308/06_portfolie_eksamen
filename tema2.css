@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.tekst_h2_tema2 {
+  text-align: center;
+  color: white;
+  text-shadow: 0 5px 10px rgb(73, 75, 90);
+  font-size: 2rem;
+  padding-top: 80px;
+}
+.opgaver_tema2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 80px;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-bottom: 100px;
+
+  gap: 20px;
+}
+.opgave_1,
+.opgave_2,
+.opgave_3,
+.opgave_4 {
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  width: 100%;
+  font-family: "Times New Roman", Times, serif;
+  text-decoration: none;
+  margin: auto;
+}
+
+@media (max-width: 1400px) {
+  .opgaver_tema2 {
+    grid-template-columns: 1fr;
+    justify-content: center;
+    width: 100%;
+  }
+}
+
+@media (max-width: 650px) {
+  .opgave_1,
+  .opgave_2,
+  .opgave_3,
+  .opgave_4 {
+    width: 100%;
+  }
+  .tekst_h2_tema2 {
+    font-size: 1.5rem;
+  }
+}

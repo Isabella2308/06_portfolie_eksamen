@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.temaer {
+  padding-bottom: 250px;
+  padding-top: 250px;
+  text-align: center;
+  padding-left: 10px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  background-image: url(img/baggrund_projekt.webp);
+  background-size: 1550px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+@media (max-width: 1079px) {
+  .temaer {
+    margin: auto;
+    font-family: "Times New Roman", Times, serif;
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+}

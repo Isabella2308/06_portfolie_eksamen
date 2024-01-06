@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.p_forside {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  display: grid;
+  gap: 50px;
+  margin: 150px 0;
+  letter-spacing: 2.5px;
+  font-family: "Times New Roman", Times, serif;
+  line-height: 45px;
+  text-shadow: 0 5px 10px rgb(206, 198, 198);
+  grid-template-columns: 1fr 1fr;
+  padding-right: 20px;
+}
+
+.forside_billeder {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 40px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.portrat {
+  width: 100%;
+  gap: 200px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  padding-top: 80px;
+  padding-left: 40px;
+}
+
+.styletile {
+  padding-bottom: 50px;
+}
+
+.tekst_h1_forside {
+  text-align: center;
+  color: white;
+  text-shadow: 0 5px 10px rgb(73, 75, 90);
+  font-size: 2rem;
+  padding-top: 80px;
+}
+
+@media (max-width: 700px) {
+  .portrat {
+    grid-template-columns: 1fr;
+    padding-right: 35px;
+    gap: 20px;
+  }
+  .p_forside {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .p_tekst_forside {
+    padding-left: 60px;
+    line-height: 25px;
+    font-size: 1rem;
+    padding-top: 5px;
+  }
+  .forside_billeder {
+    padding-left: 60px;
+    padding-top: 5px;
+  }
+}
