@@ -133,6 +133,7 @@ ul {
     align-items: center;
   }
   .lille_nav {
+    font-size: 5px;
     display: block;
   }
 }

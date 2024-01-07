@@ -58,6 +58,7 @@ img {
   border-color: white;
   border-width: 5px;
   width: 100%;
+  justify-content: center;
 }
 .opgave_3_tema3 {
   width: 80%;
@@ -83,6 +84,11 @@ img {
   letter-spacing: 2px;
   line-height: 20px;
 }
+.dokumentation {
+  padding-top: 100px;
+  padding-right: 60px;
+  gap: 100px;
+}
 
 @media (max-width: 650px) {
   .opgaver_tema3 {
@@ -107,5 +113,9 @@ img {
 
   .tekst_h2_tema3 {
     font-size: 1.5rem;
+  }
+  .dokumentation {
+    width: 100%;
+    padding-left: 60px;
   }
 }
