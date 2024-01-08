@@ -27,6 +27,21 @@ iframe {
   justify-items: center;
   width: 100%;
 }
+.opgave_beskrivelse_5 {
+  font-family: "Times New Roman", Times, serif;
+  padding: 80px;
+  font-size: 1.2rem;
+  padding-top: 50px;
+  line-height: 40px;
+  color: white;
+  font-weight: bold;
+}
+.eclipes {
+  padding-top: 100px;
+  width: 800px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.2rem;
+}
 
 @media (max-width: 1473px) {
   .opgaver_tema5 {
@@ -43,5 +58,9 @@ iframe {
   }
   .tekst_h2_tema5 {
     font-size: 1.5rem;
+  }
+
+  .opgave_beskrivelse_5 {
+    padding-top: 40px;
   }
 }

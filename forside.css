@@ -12,16 +12,18 @@ img {
 .p_forside {
   font-size: 1.2rem;
   font-weight: bold;
-  color: rgb(255, 255, 255);
+  color: white;
   display: grid;
   gap: 50px;
   margin: 150px 0;
   letter-spacing: 2.5px;
   font-family: "Times New Roman", Times, serif;
   line-height: 45px;
-  text-shadow: 0 5px 10px rgb(206, 198, 198);
   grid-template-columns: 1fr 1fr;
   padding-right: 20px;
+}
+.p_tekst_forside {
+  padding-top: 25px;
 }
 
 .forside_billeder {

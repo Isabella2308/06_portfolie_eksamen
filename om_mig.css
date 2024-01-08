@@ -13,7 +13,7 @@ img {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
-  padding-top: 80px;
+  padding-top: 120px;
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 200px;
@@ -23,7 +23,6 @@ img {
   color: white;
   font-family: Georgia, "Times New Roman", Times, serif;
   text-shadow: 0 5px 10px rgb(244, 130, 218);
-  padding: 50px 30px;
 }
 .tekst_h2_om_mig {
   text-align: center;

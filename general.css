@@ -19,8 +19,7 @@ body {
 
 .stor_nav a {
   text-decoration: none;
-  padding: 50px;
-  margin: 10px;
+  padding: 30px;
   color: rgb(255, 252, 252);
   font-size: 20px;
   text-shadow: 0 5px 10px rgb(244, 130, 218);
@@ -62,6 +61,13 @@ header {
   text-align: center;
   letter-spacing: 5px;
   line-height: 35px;
+}
+
+.tema_beskrivelse_tekst {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  padding-left: 80px;
+  padding-top: 100px;
 }
 
 .kontakt_logo {
@@ -118,7 +124,6 @@ ul {
 
 .lille_nav a {
   text-decoration: none;
-  margin: 10px;
   color: rgb(255, 252, 252);
   font-size: 20px;
   text-shadow: 0 5px 10px rgb(244, 130, 218);
@@ -135,5 +140,8 @@ ul {
   .lille_nav {
     font-size: 5px;
     display: block;
+  }
+  .tema_beskrivelse_tekst {
+    padding-left: 10px;
   }
 }

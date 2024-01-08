@@ -16,7 +16,6 @@ img {
   font-size: 1.5rem;
   padding-top: 20px;
   background-color: rgb(244, 198, 233);
-  margin: 80px 0;
   padding-bottom: 20px;
   border: solid;
   border-color: white;
@@ -29,7 +28,6 @@ img {
   padding-left: 80px;
   padding-right: 20px;
   padding-bottom: 100px;
-
   gap: 20px;
 }
 .tekst_h2_tema3 {
@@ -44,8 +42,8 @@ img {
   text-align: center;
   color: white;
   font-size: 1.5rem;
-  padding-top: 20px;
-  margin: 80px 0;
+  padding-top: 150px;
+
   padding-bottom: 20px;
   font-family: "Times New Roman", Times, serif;
   text-decoration: none;
@@ -63,6 +61,10 @@ img {
 .opgave_3_tema3 {
   width: 80%;
   padding-top: 100px;
+  font-size: 1.2rem;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  line-height: 30px;
 }
 .tekst_tema3_knap {
   background-color: white;
@@ -82,12 +84,23 @@ img {
   font-weight: bold;
   text-shadow: rgb(206, 198, 198);
   letter-spacing: 2px;
-  line-height: 20px;
+  line-height: 30px;
 }
 .dokumentation {
-  padding-top: 100px;
+  padding-top: 550px;
   padding-right: 60px;
-  gap: 100px;
+  color: white;
+  font-size: 1.2rem;
+  font-family: "Times New Roman", Times, serif;
+}
+.opgave_beskrivelse_3 {
+  font-family: "Times New Roman", Times, serif;
+  padding: 80px;
+  font-size: 1.2rem;
+  padding-top: 50px;
+  line-height: 40px;
+  color: white;
+  font-weight: bold;
 }
 
 @media (max-width: 650px) {
@@ -117,5 +130,9 @@ img {
   .dokumentation {
     width: 100%;
     padding-left: 60px;
+  }
+  .opgave_beskrivelse_3 {
+    padding: 10px;
+    padding-top: 40px;
   }
 }

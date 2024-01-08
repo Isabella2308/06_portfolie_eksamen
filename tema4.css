@@ -17,8 +17,9 @@ img {
   padding-right: 50px;
   padding-bottom: 100px;
   gap: 20px;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-family: "Times New Roman", Times, serif;
+  color: white;
 }
 .tekst_h2_tema4 {
   text-align: center;
@@ -51,6 +52,24 @@ img {
   padding-right: 20px;
   padding-bottom: 80px;
 }
+.tekst_galleri {
+  font-family: "Times New Roman", Times, serif;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-bottom: 50px;
+  padding-left: 20px;
+  color: white;
+  font-size: 1.2rem;
+}
+.opgave_beskrivelse_4 {
+  font-family: "Times New Roman", Times, serif;
+  padding: 80px;
+  font-size: 1.2rem;
+  padding-top: 50px;
+  line-height: 40px;
+  color: white;
+  font-weight: bold;
+}
 
 @media (max-width: 650px) {
   .opgave_tema4 {
@@ -64,5 +83,9 @@ img {
   }
   .tekst_tema4 {
     font-size: 1.5rem;
+  }
+  .opgave_beskrivelse_4 {
+    padding: 10px;
+    padding-top: 40px;
   }
 }
