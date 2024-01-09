@@ -81,4 +81,8 @@ img {
   .tekst_h2_om_mig {
     font-size: 1.5rem;
   }
+  .facts_om_mig {
+    font-size: 0.9rem;
+    padding: 10px;
+  }
 }

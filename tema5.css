@@ -23,9 +23,12 @@ iframe {
   grid-template-columns: 1fr;
   padding-top: 80px;
   padding-bottom: 100px;
-  gap: 20px;
+  gap: 70px;
   justify-items: center;
-  width: 100%;
+  padding: 20px;
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+  font-size: 1.2rem;
 }
 .opgave_beskrivelse_5 {
   font-family: "Times New Roman", Times, serif;
@@ -35,32 +38,48 @@ iframe {
   line-height: 40px;
   color: white;
   font-weight: bold;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 90px;
 }
-.eclipes {
+.eclipse {
   padding-top: 100px;
-  width: 800px;
   font-family: "Times New Roman", Times, serif;
   font-size: 1.2rem;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 100px;
+}
+#youtube_video {
+  padding: 80px;
 }
 
-@media (max-width: 1473px) {
+@media (max-width: 1400px) {
   .opgaver_tema5 {
-    width: 100%;
-    padding-top: 50px;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-  .opgaver_tema5 iframe,
-  .opgaver_tema5 video {
-    width: 100%;
+    width: 80%;
     height: auto;
     margin: auto;
+    justify-content: center;
+    padding: 0;
   }
   .tekst_h2_tema5 {
     font-size: 1.5rem;
   }
-
   .opgave_beskrivelse_5 {
+    padding-left: 20px;
+    padding-right: 20px;
     padding-top: 40px;
+    padding-bottom: 90px;
+    font-size: 1.2rem;
+    line-height: 30px;
+    gap: 20px;
+    grid-template-columns: 1fr;
+  }
+
+  #youtube_video {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 80px;
   }
 }

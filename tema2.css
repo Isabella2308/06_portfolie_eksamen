@@ -35,7 +35,7 @@ img {
   padding: 10px;
   width: 100%;
   font-family: "Times New Roman", Times, serif;
-  text-decoration: none;
+
   margin: auto;
 }
 .opgave_beskrivelse_2 {
@@ -46,16 +46,23 @@ img {
   line-height: 40px;
   color: white;
   font-weight: bold;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 90px;
+}
+.tema_beskrivelse_tekst {
+  padding-left: 80px;
 }
 .grid {
   display: grid;
   grid-template-rows: repeat(4, 1fr);
   font-family: "Times New Roman", Times, serif;
   font-size: 1.2rem;
-  padding-left: 80px;
+  text-align: center;
   gap: 40px;
   color: white;
   font-weight: bold;
+  padding-top: 60px;
 }
 
 @media (max-width: 1400px) {
@@ -77,7 +84,21 @@ img {
     font-size: 1.5rem;
   }
   .opgave_beskrivelse_2 {
-    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
     padding-top: 40px;
+
+    grid-template-columns: 1fr;
+    line-height: 30px;
+    gap: 20px;
+  }
+  .opgaver_tema2 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .grid {
+    padding-top: 100px;
+    padding-bottom: 100px;
   }
 }

@@ -14,8 +14,8 @@ img {
   font-weight: bold;
   color: white;
   display: grid;
-  gap: 50px;
-  margin: 150px 0;
+  gap: 10px;
+  padding-top: 120px;
   letter-spacing: 2.5px;
   font-family: "Times New Roman", Times, serif;
   line-height: 45px;
@@ -67,17 +67,19 @@ img {
     gap: 20px;
   }
   .p_forside {
-    display: grid;
     grid-template-columns: 1fr;
+    font-size: 1rem;
+    line-height: 18px;
   }
   .p_tekst_forside {
-    padding-left: 60px;
+    padding-left: 20px;
     line-height: 25px;
     font-size: 1rem;
-    padding-top: 5px;
+    padding-bottom: 50px;
   }
   .forside_billeder {
-    padding-left: 60px;
+    padding: 0;
+    padding-left: 20px;
     padding-top: 5px;
   }
 }
