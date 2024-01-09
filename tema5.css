@@ -50,6 +50,7 @@ iframe {
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 100px;
+  line-height: 30px;
 }
 #youtube_video {
   padding: 80px;
@@ -81,5 +82,8 @@ iframe {
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 80px;
+  }
+  .eclipse {
+    line-height: 20px;
   }
 }
